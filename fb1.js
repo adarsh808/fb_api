@@ -1,6 +1,6 @@
  $( document ).ready(function() {  //loading of DOM
     //storing the token to a variable
-    var myFacebookToken = 'EAACEdEose0cBADO8cDgl808f1nkJSZBYs7RkYqwMp3yDNKB0YJ2x4wCWB10Fx9lmAZAvBYZBzgL866ZBEZCh30ghh3PmOB5HseJB7TGOoGExk6MjhA8HqZCq32GC9ZBd2YLG7AvqgHpdlZCnRHg8iExA8JJL28355TVNObAJsbTwiPAwY9WxOCZAKCNRq6ma6CZAwZD';
+    var myFacebookToken = 'EAACEdEose0cBABUAXlZCNlZCAnrwY7WdwKQeGA172k0VazhHXEGlaZAuZBM1n4xZCJAP97rIH8T3ETjFRkwweJBhY8KOMEDmzkjITaElO6goIps7rx6tZCfpsZBacBzmJZAzBSXOjl7KS88kZCkM5oaEqqnKlRobbvox30axR9dHNJnb62h6v2FjZA2hNX1sCnTY8ZD';
  $('.loader').hide();//hidibg the loader at first
     function getFacebookInfo(){
 

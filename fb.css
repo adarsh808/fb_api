@@ -7,6 +7,7 @@ body {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
+    overflow-x: hidden;
 }
 input {
     margin-left: 1%;
@@ -218,14 +219,6 @@ input {
         left: calc(50% - 1.25vmin);
     }
 }
-#post {
-    font-size: 1.5vmax;
-}
-@media only screen and (max-width: 200px) {
-    p {
-        font-size: 2vw;
-    }
-    h1 {
-        font-size: 3vw;
-    }
+#post,label{
+    font-size: 1.4vmax;
 }
