@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Facebook info</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+      <link rel="stylesheet" type="text/css" href="fb.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Bitter|Lobster|Roboto+Slab|Ropa+Sans|Yanone+Kaffeesatz|Shrikhand|Open+Sans" rel="stylesheet">
+      <style type="text/css">
+         h1{
+         font-size: 3vmax;
+         font-family: 'Lobster', cursive;
+         text-align: center;
+         }
+         label{
+         font-family: 'Roboto Slab', serif;
+         }
+         @media only screen and (max-width: 270px){
+         body{
+         padding: 0;
+         }
+         p,label{
+         font-size: 2vw;
+         }
+         h1{
+         font-size: 4vw;
+         }
+         #fbut,#fbut1{
+         font-size:  4vw;
+         }
+         }
+         @media only screen and (max-width: 100px){
+         body{
+         padding: 0;
+         }
+         p,label{
+         font-size: 1.5vw;
+         }
+         h1{
+         font-size: 3vw;
+         }
+         #fbut,#fbut1{
+         font-size:  3vw;}
+      </style>
+   </head>
+   <body>
+      <header>
+      <h1>A CLICK AWAY TO KNOW MORE ABOUT ME</h1>
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+               <form class="form-inline">
+                  <div class="form-group">
+                     <label for="myname">Name</label>
+                     <input type="text" class="form-control" id="myname" >
+                  </div>
+               </form>
+               </br>
+               </br>
+               </br>
+               <form class="form-inline">
+                  <div class="form-group">
+                     <label for="mygender">Gender</label>
+                     <input type="text" class="form-control" id="mygender" >
+                  </div>
+               </form>
+               </br>
+               </br>
+               </br>
+               <form class="form-inline">
+                  <div class="form-group">
+                     <label for="mydob">DOB</label>
+                     <input type="text" class="form-control" id="mydob" >
+                  </div>
+               </form>
+               </br>
+               </br>
+               </br>
+               <form class="form-inline">
+                  <div class="form-group">
+                     <label for="mymail">Mail</label>
+                     <input type="text" class="form-control" id="mymail" >
+                  </div>
+               </form>
+               </br>
+               </br>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+               <form class="form-inline">
+                  <div class="form-group">
+                     <label for="myschool">School</label>
+                     <input type="text" class="form-control" id="myschool" >
+                  </div>
+               </form>
+               </br>
+               </br>
+               </br>
+               <form class="form-inline">
+                  <div class="form-group">
+                     <label for="mycollege">College</label>
+                     <input type="text" class="form-control" id="mycollege" >
+                  </div>
+               </form>
+               </br>
+               </br>
+               </br>
+               <form class="form-inline">
+                  <div class="form-group">
+                     <label for="myms">Marital Status</label>
+                     <input type="text" class="form-control" id="myms" >
+                  </div>
+               </form>
+               </br>
+               </br>
+               </br>
+               <form class="form-inline">
+                  <div class="form-group">
+                     <label for="myproid">Profile id</label>
+                     <input type="text" class="form-control" id="myproid" >
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+      </br>
+      </br>
+      <div style="margin: auto; width: 30%">
+         <button id="fbut" type="button" class="btn btn-primary">CLICK ME</button>
+         <h1>MY RECENT POSTS ON Fb</h1>
+         <button id="fbut1" type="button" class="btn btn-primary">CLICK ME</button>
+      </div>
+      <div id="post" class="posts" ></div>
+      <div class="loader">
+         <div class="load_base load1">
+            <div class="load_base out_loader"></div>
+         </div>
+         <div class="load_base load2">
+            <div class="load_base in_loader in_loader1"></div>
+            <div class="load_base in_loader in_loader2"></div>
+            <div class="load_base in_loader in_loader3"></div>
+            <div class="load_base in_loader in_loader4"></div>
+         </div>
+      </div>
+      <script type="text/javascript" src="jquery.min.js"></script>
+      <script type="text/javascript" src="fb1.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   </body>
+</html>
